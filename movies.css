@@ -1,0 +1,31 @@
+input {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+  
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 0;
+    
+}
+
+#button{
+    /* Add an icon to the button (you'll need to include an icon font or an image) */
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/47/67/movie-icon-vector-23534767.jpg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px; /* Adjust the padding to accommodate the icon */
+  }
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movies.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+</head>
+<body>
+    <h1> IANS' AMAZING MOVIE APP!</h1>
+
+    <form  action="#" method="post" id="form">
+
+        <div class="inputs">
+            <input type = "text" placeholder="MOVIE NAME" id="title"> <br>
+            <input type ="text" placeholder="MOVIE RATING" id="rating">
+            <input type = "button" id ="button">
+    </div>
+    </form>
+
+    <label for="sort">Sort By:</label>
+    <select id="sort">
+        <option value="default">Default</option>
+        <option value="title">Title (A-Z)</option>
+        <option value="rating">Rating (1-10)</option>
+    </select>
+
+    <div id="listContainer">
+
+        <ul id ="newList"></ul>
+
+    </div>
+
+
+    <script src="movies.js"></script>
+</body>
+
+</html>
